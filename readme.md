@@ -35,7 +35,7 @@ This project implements a `TextProcessor` class in Python that counts the freque
     Please refer to the test file to refer the basic unitests verifies the **FileNotFoundError** and also verifies the word match count in the sample files provided. 
    To run the sample tests please run the following bash commands in root directory path. One might face errors in running the files in test directory due to Ambiguity of paths.
     ```bash
-      python -m tests/testFileName
+      python -m unittest tests/testFileName
     ```
 6. **Assumptions:**
     All the assumptions that were given in the problem statement were taken into consideration but howerever in the cases of special characters arising in a word, special characters have been cleaned and the entire word text has been concatenated.
