@@ -33,10 +33,10 @@ This project implements a `TextProcessor` class in Python that counts the freque
     ```
 5. **Assumptions:**
     All the assumptions that were given in the problem statement were taken into consideration but howerever in the cases of special characters arising in a word, special characters have been cleaned and the entire word text has been concatenated.
- ```text
-    good-for-nothing -> goodfornothing
-    Dursley's -> Dursleys
-    AI. -> AI
- ```
+    ```text
+       good-for-nothing -> goodfornothing
+       Dursley's -> Dursleys
+       AI. -> AI
+    ```
 6. **Complexity of the code**
     We are traversing the entire preDefined Words file once and text file once and are only counting the words in the predDefined Word, to Ignore the case sensitivity we are keeping track of lowercase word as key in the map along with the orginal word. Returning dict,values() would have been sufficient for better readability we are Copying the values into a new dictionary.
